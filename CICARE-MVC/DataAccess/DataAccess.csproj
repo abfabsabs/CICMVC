@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5CDA033A-1CA7-4CB8-8FBD-A720AD38BA44}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DataAccess</RootNamespace>
+    <AssemblyName>DataAccess</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlternateObserver.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AttendanceRequirement.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Chair.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ChairRoundingScore.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ChairRoundingStatu.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ChairSuperior.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ChairSupervisor.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CICARE_DataModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CICARE_DataModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CICARE_DataModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CICARE_DataModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CICARE_DataModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Configuration.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Department.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HealthstreamCourse.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Interaction.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="InteractionStatu.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ManagementRound.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ManagementRoundAttendance.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrganizationDeptCode.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrganizationJobCode.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrganizationRole.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrganizationStatu.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Practice.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PracticeInteraction.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recognition.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RecognitionGiver.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RecognitionReason.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RecognitionRecipientMap.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RecoveryItem.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RecoveryItemReplenishment.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Resource.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ResourceCategory.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Role.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Round.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RoundInteraction.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RoundObserver.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceRecovery.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceRecoveryDetail.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceRecoveryReason.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceRecoveryRecipient.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SpecialAttendee.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetBreakdownOfSubordinatesByMonth_Result.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetChairToSupervisorChairRelationships_Result.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetChairToUserRelationships_Result.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetDepartmentRoundsForUsersSubordinates_Result.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetInactiveChairs_Result.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetManagementRoundsForUser_Result.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetManagementRoundsSchedule_Result.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetRecognitionsGivenForUser_Result.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetUserDetails_Result.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_helpdiagramdefinition_Result.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_helpdiagrams_Result.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_WhoDoesUserReportTo_Result.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_WhoReportsToUser_Result.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sysdiagram.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Template.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TemplatePractice.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tryUsersGrouped_Result.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="udf_FiscalYearTable_Result.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="udf_GroupedUsersTable_Alternate2_Result.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="udf_GroupedUsersTable_Alternate_Result.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="udf_GroupedUsersTable_Result.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="udf_nameSearch_Result.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="User.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UserChair.cs">
+      <DependentUpon>CICARE_DataModel.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="CICARE_DataModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>CICARE_DataModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <None Include="CICARE_DataModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>CICARE_DataModel.edmx</DependentUpon>
+      <LastGenOutput>CICARE_DataModel.Context.cs</LastGenOutput>
+    </None>
+    <None Include="CICARE_DataModel.edmx.diagram">
+      <DependentUpon>CICARE_DataModel.edmx</DependentUpon>
+    </None>
+    <None Include="CICARE_DataModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>CICARE_DataModel.edmx</DependentUpon>
+      <LastGenOutput>CICARE_DataModel.cs</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

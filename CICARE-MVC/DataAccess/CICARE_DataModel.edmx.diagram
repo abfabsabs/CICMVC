@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1e95c6110f554b4abab7d84a593c8cae" Name="Diagram1">
+        <EntityTypeShape EntityType="CiCareModel.AlternateObserver" Width="1.5" PointX="8.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiCareModel.AttendanceRequirement" Width="1.5" PointX="0.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiCareModel.Chair" Width="1.5" PointX="6" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiCareModel.ChairRoundingScore" Width="1.5" PointX="10.5" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiCareModel.ChairRoundingStatu" Width="1.5" PointX="8.25" PointY="39" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiCareModel.ChairSuperior" Width="1.5" PointX="8.25" PointY="43.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiCareModel.ChairSupervisor" Width="1.5" PointX="8.25" PointY="46.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiCareModel.Configuration" Width="1.5" PointX="2.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiCareModel.Department" Width="1.5" PointX="3.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiCareModel.HealthstreamCourse" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiCareModel.Interaction" Width="1.5" PointX="11.25" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiCareModel.InteractionStatu" Width="1.5" PointX="13.5" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiCareModel.ManagementRound" Width="1.5" PointX="6" PointY="23.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiCareModel.ManagementRoundAttendance" Width="1.5" PointX="8.25" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiCareModel.OrganizationDeptCode" Width="1.5" PointX="0.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiCareModel.OrganizationJobCode" Width="1.5" PointX="3.75" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiCareModel.OrganizationRole" Width="1.5" PointX="3.75" PointY="21.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiCareModel.OrganizationStatu" Width="1.5" PointX="3.75" PointY="23.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiCareModel.Practice" Width="1.5" PointX="11.25" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiCareModel.PracticeInteraction" Width="1.5" PointX="13.5" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiCareModel.Recognition" Width="1.5" PointX="11.25" PointY="16.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiCareModel.RecognitionGiver" Width="1.5" PointX="9" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiCareModel.RecognitionReason" Width="1.5" PointX="9" PointY="25.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiCareModel.RecognitionRecipientMap" Width="1.5" PointX="13.5" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiCareModel.RecoveryItem" Width="1.5" PointX="0.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiCareModel.RecoveryItemReplenishment" Width="1.5" PointX="3" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiCareModel.Resource" Width="1.5" PointX="18" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiCareModel.ResourceCategory" Width="1.5" PointX="15.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiCareModel.Role" Width="1.5" PointX="9" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiCareModel.Round" Width="1.5" PointX="8.25" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiCareModel.RoundInteraction" Width="1.5" PointX="13.5" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiCareModel.RoundObserver" Width="1.5" PointX="13.5" PointY="17.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiCareModel.ServiceRecovery" Width="1.5" PointX="8.25" PointY="30.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiCareModel.ServiceRecoveryDetail" Width="1.5" PointX="10.5" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiCareModel.ServiceRecoveryReason" Width="1.5" PointX="8.25" PointY="36.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiCareModel.ServiceRecoveryRecipient" Width="1.5" PointX="8.25" PointY="27.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiCareModel.SpecialAttendee" Width="1.5" PointX="8.25" PointY="33" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiCareModel.sysdiagram" Width="1.5" PointX="4.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiCareModel.Template" Width="1.5" PointX="6" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiCareModel.TemplatePractice" Width="1.5" PointX="13.5" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiCareModel.User" Width="1.5" PointX="6" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiCareModel.UserChair" Width="1.5" PointX="8.25" PointY="21.375" IsExpanded="true" />
+        <AssociationConnector Association="CiCareModel.FK_AlternateObserver_Chair" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_AlternateObserver_Chair_2" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_ChairHierarchy_Chair" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_ChairHierarchy_Chair_2" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_ChairRoundingStatus_Chair" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_ChairSupervisor_Chair" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_ChairSupervisor_Chair_2" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_ChairSupervisor_Chair_3" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_Round_Chair" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_Round_Chair1" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_RoundObserver_Chair" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_UserChair_Chair" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_ChairRoundingScore_Round" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_Practice_Department" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_Template_Department" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_InteractionStatus_Interaction" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_PracticeInteration_Interaction" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_RoundInteraction_Interaction" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_InteractionStatus_Practice" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_InteractionStatus_Template" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_ManagementRoundAttendance_ManagementRound" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_ManagementRoundAttendance_User" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_RecoveryItemReplenishment_OrganizationDeptCode" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_User_OrganizationDeptCode" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_User_OrganizationJobCode" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_User_OrganizationRole" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_User_OrganizationStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_Practice_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_PracticeInteration_Practice" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_RoundInteraction_Practice" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_TemplatePractice_Practice" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_Recognition_RecognitionGiver" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_Recognition_RecognitionReason" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_Recognition_Round" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_Recognition_User" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_Recognition_User_2" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_Recognition_User_3" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_RecognitionRecipientMap_Recognition" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_RecognitionRecipientMap_User" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_RecoveryItemReplenishment_RecoveryItem" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_ServiceRecoveryDetail_RecoveryItem" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_Resource_ResourceCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_Round_Template" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_Round_User" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_Round_User1" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_RoundInteraction_Round" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_RoundObserver_Round" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_RoundObserver_User" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_ServiceRecovery_User" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_ServiceRecoveryDetail_ServiceRecovery" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_ServiceRecoveryDetail_ServiceRecoveryReason" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_ServiceRecoveryDetail_ServiceRecoveryRecipient" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_SpecialAttendee_User" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_TemplatePractice_Template" ManuallyRouted="false" />
+        <AssociationConnector Association="CiCareModel.FK_UserChair_User" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
